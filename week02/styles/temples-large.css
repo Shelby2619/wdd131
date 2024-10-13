@@ -35,6 +35,10 @@
         grid-gap: 1rem;
   }
 
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
   img {
     width: 300px;
   }
@@ -43,13 +47,13 @@
   {
     text-align: center;
   }
-  
+
   .hamburger {
-    display: none;
-    font-size: 2em;
-    background: none;
-    border: none;
-    cursor: pointer;
+    display: none; /* Hidden by default */
+    font-size: 3em; /* Size of the hamburger icon */
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer on hover */
 }
-  
+
 }

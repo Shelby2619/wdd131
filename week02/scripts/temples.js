@@ -4,6 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     hamburger.addEventListener('click', function() {
         navMenu.classList.toggle('show');
-        hamburger.textContent = navMenu.classList.contains('show') ? '✖' : '☰';
+        hamburger.textContent = navMenu.classList.contains('show') ? '✖' : '☰'; 
     });
 });

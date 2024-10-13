@@ -93,6 +93,42 @@ section {
     background-color: #83c5be;
 
 }
+
+
 .hamburger {
-    display: block;
+    display: block; 
+
 }
+
+
+nav ul {
+flex-direction: column; 
+padding: 0; 
+list-style: none; 
+width: 100%;}
+
+
+#nav-menu {
+    display: none; 
+    flex-direction: column; 
+    position: absolute; 
+    top: 60px; 
+    left: 0;
+    width: 100%; 
+    background-color: #83c5be; 
+}
+
+#nav-menu ul {
+    flex-direction: column; 
+    padding: 0; 
+    list-style: none; 
+    width: 100%; 
+}
+
+#nav-menu ul li {
+    margin: 0; }
+
+#nav-menu.show {
+    display: flex; 
+}
+
